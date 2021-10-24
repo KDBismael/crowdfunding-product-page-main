@@ -1,0 +1,900 @@
+.content{
+    display: grid;
+    position: relative;
+    height:139.9rem;
+}
+
+
+/*a navBar*/
+.navbar{
+    border: 1px solid black;
+    height: 15rem;
+    background-image: url('./images/image-hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    position: relative;
+}
+.navbar .logo{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.burger{
+    justify-self: end;
+    align-items: start;
+    margin-right: 1.5rem;
+    position: absolute;
+    top: 10%;
+}
+.nav-bar-modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar ul{
+    background-color: white;
+    border-radius: .5rem;
+    display: grid;
+    justify-content:start;
+    height: 35%;
+    width: 80%;
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+}
+.myli{
+    border-top:none !important;
+}
+.close-menu{
+    position: absolute;
+    top: 4%;
+    right: 8%;
+}
+.close-menu:focus{
+    fill: #000;
+}
+.navbar li{
+    list-style: none;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    border-top: 1px rgb(236, 233, 233) solid;
+    width: 290%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+/*navbar end*/
+
+/*part 1 start*/
+.part1{
+    background-color: white;
+    border-radius: .5rem;
+    width: 80%;
+    height: 15rem;
+    justify-self: center;
+    align-self: start;
+    position: absolute;
+    top: 11.8rem;
+
+}
+.part1 .masterCraft{
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    transform: translate(-50%,-5%);
+}
+.part1 h1{
+    display: inline-block;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: .5rem;
+    height: 20%;
+}
+.part1 p{
+    position: absolute;
+    top: 4.8rem;
+    text-align: center;
+    left: 7%;
+    margin-top: 1rem;
+    height: 20%;
+}
+.part1 .part1link1{
+    display: inline-block;
+    position: absolute;
+    bottom: 00.5rem;
+    top: 9rem;
+    left: .3rem;
+    text-decoration: none;
+    width: 65%;
+    height: 23%;
+    justify-self:start;
+}
+.part1 .part1link1{
+    color: white;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: hsl(176, 50%, 47%);
+}
+.part1 .part1link2{
+    position: absolute;
+    bottom: 0.5rem;
+    right: .5rem;
+    top: 9rem;
+}
+.part1link2 p{
+    display: none;
+}
+/*part1 end*/
+
+/*part2 start*/
+.part2{
+    background-color: white;
+    border-radius: .5rem;
+    width: 80%;
+    height: 20rem;
+    justify-self: center;
+    align-self: start;
+    position: absolute;
+    top:28.5rem ;
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+}
+.part2 .number1{
+    justify-self: center;
+    align-self: start;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 27px;
+}
+.part2 .number2{
+    justify-self: center;
+    align-self: start;
+    margin-top: 2rem;
+    font-size: 27px;
+}
+.part2 .number3{
+    justify-self: center;
+    align-self: start;
+    margin-top: 2.5rem;
+    font-size: 27px;
+}
+.p1{
+    font-size: 15px;
+    position: absolute;
+    top: 3rem;
+    margin-left: 1rem;
+    align-self: start;
+    justify-self: center;
+}
+.p2{
+    font-size: 15px;
+    justify-self: center;
+    align-self: start;
+    position: absolute;
+    bottom: 9rem;
+}
+.p3{
+    position: absolute;
+    bottom: 2.8rem;
+    font-size: 15px;
+    justify-self: center;
+    align-self: start;
+}
+.part2 .progressbar{
+    height:1rem;
+    border-radius: .5rem;
+    width: 90%;
+    margin-left: 1rem;
+    position: relative;
+    display: grid;
+    align-content: center;
+    background-color: hsl(0, 12%, 95%);
+
+}
+.progressbar::before{
+    content: " ";
+    position: absolute;
+    bottom: .5px;
+    height: 0.98rem;
+    border-radius:.5rem ;
+    min-width:2rem;
+    width: 80%;
+    max-width:100%;
+    background-color:hsl(176, 50%, 47%) ;
+}
+/*part2 end*/
+
+/*part3 start*/
+
+.part3{
+    background-color: white;
+    border-radius: .5rem;
+    width: 80%;
+    height: 86rem;
+    justify-self: center;
+    align-self: start;
+    position: absolute;
+    top:50.3rem ;
+    display: grid;
+}
+.part3 .partbis{
+    width: 90%;
+    height:29%;
+    margin-top: 1rem;
+    text-align: justify;
+    justify-self: center;
+}
+.partbis h1{
+    font-size: 20px;
+}
+.part3 .part1bis{
+    border: 1px hsl(0, 4%, 90%) solid;
+    width: 90%;
+    justify-self: center;
+    position: absolute;
+    top: 23rem;
+    border-radius: .5rem;
+}
+.part3 .part2bis{
+    border: 1px hsl(0, 4%, 90%) solid;
+    border-radius: .5rem;
+     width: 90%;
+     justify-self: center;
+     position: absolute;
+     top: 44.5rem;
+}
+.part3 .part3bis{
+    border: 1px hsl(0, 4%, 90%) solid;
+    border-radius: .5rem;
+     width: 90%;
+     min-height:19rem ;
+     justify-self: center;
+     position: absolute;
+     top: 65rem;
+     bottom: 1rem;
+ }
+ /*par1bis content*/
+.part1bis{
+    display: grid;
+}
+.part1bis h1{
+    justify-self: start;
+    padding-left: 1rem;
+}
+.Bamboo{
+    font-size:20px;
+    padding-top: 1rem;
+}
+.part1bis .text{
+    margin-left: 1rem !important;
+    margin: 1.5rem;
+}
+.part1bis .pledge{
+    justify-self:start;
+    align-self: start;
+    margin-left: 1rem;
+    padding-top: .3rem;
+    font-size: 21px;
+    color: hsl(176, 50%, 47%);
+}
+.part1bis .left{
+    justify-self: center;
+    align-self: start;
+    position: absolute;
+    bottom: 4rem;
+    left: 4.5rem;
+}
+.part1bis a{
+    justify-self:start;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    height: 2.5rem;
+    width: 50%;
+    padding:.6rem;
+    padding-left: 1.3rem;
+    border-radius: 2rem;
+    background-color:hsl(176, 50%, 47%);
+    color: white;
+    text-decoration: none;
+}
+.part1bis a:active{
+    background-color:hsl(176, 72%, 28%);
+}
+ /*part1bis end*/
+
+/*part2bis content*/
+.part2bis{
+    display: grid;
+}
+.part2bis h1{
+    justify-self: start;
+    padding-left: 1rem;
+}
+.Black{
+    font-size:20px;
+    padding-top: 1rem;
+}
+.part2bis .text1{
+    margin-left: 1rem !important;
+    margin: 1.5rem;
+}
+.part2bis .pledge1{
+    justify-self:start;
+    align-self: start;
+    margin-left: 1rem;
+    padding-top: .3rem;
+    font-size: 21px;
+    color: hsl(176, 50%, 47%);
+}
+.part2bis .left1{
+    justify-self: center;
+    align-self: start;
+    position: absolute;
+    bottom: 4rem;
+    left: 4.5rem;
+}
+.part2bis a{
+    justify-self:start;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    height: 2.5rem;
+    font-size: .9rem;
+    width: 50%;
+    padding:.6rem;
+    padding-left: 1.3rem;
+    border-radius: 2rem;
+    background-color:hsl(176, 50%, 47%);
+    color: white;
+    text-decoration: none;
+}
+/*part2bis end*/
+.part3bis{
+    display: grid;
+}
+.part3bis h1{
+    justify-self: start;
+    padding-left: 1rem;
+}
+.Mahogany{
+    padding-top: 1rem;
+    font-size:1.2rem;
+}
+.part3bis .text2{
+    margin-left: 1rem !important;
+    margin: 1.5rem;
+    position: absolute;
+    top: 4rem;
+
+}
+.part3bis .pledge2{
+    justify-self:start;
+    align-self: start;
+    margin-left: 1rem;
+    padding-top: .7rem;
+    font-size: 21px;
+    color: hsl(176, 50%, 47%);
+    position: absolute;
+    top: 2rem;
+}
+.part3bis .left2{
+    justify-self: center;
+    align-self: start;
+    position: absolute;
+    bottom: 23%;
+    left: 3.5rem;
+}
+.part3bis a{
+    justify-self: start;
+    margin: 1rem;
+    height: 2.5rem;
+    width: 50%;
+    font-size: .9rem;
+    padding:.6rem;
+    padding-left: 1.3rem;
+    border-radius: 2rem;
+    background-color:hsl(0, 3%, 71%);
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: .5%;
+}
+.Nb2{
+    position: absolute;
+    bottom: 20%;
+}
+/*part3bis content*/
+
+/*part3bis end*/
+
+/*part3 end*/
+
+
+
+/*modal start*/
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgba(0,0, 0,0.5);
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.ref-modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/*sucess modal*/
+.sucess-modal{
+    border-radius: .5rem;
+    position: relative;
+    background: white;
+    justify-self: center;
+    align-self: center;
+    width: 85%;
+    height: 50%;
+    box-shadow: 0 3px 7px 0 rgba(0,0, 0,0.2),0 8px 15px 0 rgba(0,0, 0,0.2);
+}
+.sucess-modal h1{
+    font-size: 18px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(0%,50%);
+}
+.sucess-modal p{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 48%;
+}
+.sucess-modal img{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,50%);
+}
+.sucess-modal button{
+    position: absolute;
+    left: 50%;
+    margin:10% ;
+    bottom: .6rem;
+    transform: translate(-110%,50%);
+}
+.sucess-modal button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+}
+.sucess-modal button:hover,.sucess-modal button:focus{
+    background-color: hsl(176, 72%, 28%);
+    cursor: pointer;
+}
+.sucess-modal{
+    display: none;
+}
+/*sucess modal end*/
+
+/*selection modal start*/
+.selection-modal{
+    border-radius: .4rem;
+    position: relative;
+    background: white;
+    justify-self: center;
+    width: 85%;
+    height: 169%;
+    margin-top: 3%;
+    display: grid;
+    grid-row-gap: 1rem;
+    box-shadow: 0 3px 7px 0 rgba(0,0, 0,0.2),0 8px 15px 0 rgba(0,0, 0,0.2);
+}
+.ref-selection-modal{
+    display: block;
+    transform: translateX(7.5%);
+}
+.selection-modal p,h1{
+    justify-self: start;
+    align-self: start;
+}
+.selection-modal .back{
+    margin-left: 1rem;
+    font-size: 19px;
+    position: absolute;
+    top: 1rem;
+}
+.modal-text{
+    position: absolute;
+    top: 3rem;
+    margin-left: 1rem;
+}
+.close-modal{
+    justify-self: end;
+    margin: 1rem;
+}
+.close-modal:focus{
+    cursor: pointer;
+}
+/* select1*/
+.select1{
+    border: 1px solid rgb(214, 211, 211);
+    border-radius: .3rem;
+    position: absolute;
+    top:12%;
+    background: white;
+    width: 90%;
+    height: 15%;
+    justify-self: center;
+    align-self: start;
+    margin-top: 1rem;
+}
+.select1 label{
+    padding-left: .5rem;
+    font-size:15px ;
+    font-weight:bold;
+}
+#R1{
+    margin: .5rem;
+}
+#P1{
+    margin-left: .5rem;
+    font-size: .9rem;
+    text-align: left;
+}
+.selected1{
+    display: grid;
+    position:relative;
+    margin-top :-1%;
+    height: 3rem;
+}
+.selected1 button{
+    border: none;
+    justify-self: end;
+    position: absolute;
+    bottom: 1rem;
+    width: 35%;
+    height: 2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: hsl(176, 50%, 47%);
+}
+.selected1 button:focus{
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+}
+.ref-selection{
+    display: none;
+}
+/*select 2 star*/
+.select2{
+    border: 1px solid rgb(214, 211, 211);
+    border-radius: .3rem;
+    position: absolute;
+    top: 31.5%;
+    height: 23%;
+    background: white;
+    width: 90%;
+    justify-self: center;
+    align-self: start;
+    display: grid;
+}
+.select2 label{
+    font-weight:bold;
+    position: absolute;
+    left: 2.5rem;
+    top: .5rem;
+}
+.select2 .nb{
+    justify-self:start;
+    margin: .5rem;
+    position: absolute;
+    top: 9.9rem;
+    font-size: 17px;
+    margin-right: 2rem;
+}
+#R2{
+    margin: .5rem;
+}
+#left{
+    font-size: 15px;
+    margin: .5rem;
+    position: absolute;
+    left: 12%;
+    top: 10rem;
+}
+#pledge{
+    position: absolute;
+    top: 2.2rem;
+    left: 2.4rem;
+    font-size: 15px;
+    color: hsl(176, 50%, 47%);
+}
+#pselect{
+    margin-top: 3%;
+    margin-left: .5rem;
+    font-size: 1rem;
+    text-align: left;
+}
+.selected2{
+    display: grid;
+    position:relative;
+    border-top: 1px solid rgb(241, 235, 235);
+    margin-top :10%;
+    height: 3rem;
+}
+.selected2 p{
+    justify-self:center;
+    position:absolute;
+    margin-left: 0rem !important;
+    font-size: 14px;
+    top: .5rem;
+}
+.selected2 button{
+    border: none;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    justify-self: end;
+    position: absolute;
+    top: 2rem;
+    bottom: .5rem;
+    width: 35%;
+    height: 2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+.selected2 button:focus{
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+}
+
+.selected2 input{
+    justify-self: end;
+    border: 1px rgb(228, 222, 222) solid;
+    position: absolute;
+    top: 2rem;
+    bottom: .5rem;
+    right: 5rem;
+    width: 33%;
+    height: 2rem;
+    margin-right: 3.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 1rem;
+    font-size: 16px;
+}
+.ref-selection1{
+    display: none;
+}
+
+/*select3 start*/
+.select3{
+    border: 1px solid rgb(214, 211, 211);
+    border-radius: .3rem;
+    position: absolute;
+    top: 57.5%;
+    height: 20%;
+    background: white;
+    width: 90%;
+    justify-self: center;
+    align-self: start;
+    display: grid;
+}
+.select3 label{
+    font-weight:bold;
+    position: absolute;
+    top: .5rem;
+    left: 2.5rem;
+}
+.select3 input{
+    margin: .5rem;
+}
+#pledge2{
+    position: absolute;
+    top: 2rem;
+    left: 2.5rem;
+    font-size: 15px;
+    color: hsl(176, 50%, 47%);
+}
+#P2{
+    margin-top: 3%;
+    margin-left: .5rem;
+    font-size: 1rem;
+    text-align: left;
+}
+#left2{
+    font-size: 15px;
+    margin: .5rem;
+    position: absolute;
+    left: 10.8%;
+    top: 9.1rem;
+}
+.select3 .nb2{
+    justify-self:start;
+    margin: .5rem;
+    position: absolute;
+    top: 8.999rem;
+    font-size: 19px;
+    margin-right: 2rem;
+}
+.selected3{
+    display: grid;
+    position:relative;
+    border-top: 1px solid rgb(241, 235, 235);
+    height: 3rem;
+    margin-top: -1rem;
+}
+.selected3 p{
+    justify-self:center;
+    position:absolute;
+    margin-left: 0rem !important;
+    font-size: 14px;
+    top: .5rem;
+}
+.selected3 button{
+    border: none;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    justify-self: end;
+    position: absolute;
+    top: 2rem;
+    bottom: .5rem;
+    width: 35%;
+    height: 2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+.selected3 button:focus{
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+}
+
+.selected3 input{
+    justify-self: end;
+    border: 1px rgb(228, 222, 222) solid;
+    position: absolute;
+    top: 2rem;
+    bottom: .5rem;
+    right: 5rem;
+    width: 33%;
+    height: 2rem;
+    margin: 0;
+    margin-right: 3.5rem !important;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 1rem;
+    font-size: 16px;
+}
+.ref-selection2{
+    display: none;
+}
+
+/*select4 start*/
+.select4{
+    border: 1px solid rgb(214, 211, 211);
+    border-radius: .3rem;
+    background: white;
+    position: relative;
+    top: 0%;
+    width: 90%;
+    height: 35%;
+    justify-self:center;
+    align-self:end;
+    margin-bottom: .5rem;
+}
+.select4 label{
+    font-weight:bold;
+    position: absolute;
+    left:2rem;
+    top: .5rem;
+}
+.select4 .ratio-point3{
+    margin: .5rem;
+}
+#pledge3{
+    position: absolute;
+    top: 1.9rem;
+    left: 2rem;
+    font-size: 15px;
+    color: hsl(176, 50%, 47%);
+}
+#P3{
+    margin-top: 10%;
+    margin-left: .5rem;
+    font-size: 1rem;
+    text-align: left;
+}
+.select4 .nb3{
+    justify-self:start;
+    margin: .5rem;
+    position: absolute;
+    top: 8.7rem;
+    font-size: 19px;
+    margin-right: 2rem;
+}
+#left3{
+    font-size: 15px;
+    margin: .5rem;
+    position: absolute;
+    left: 8%;
+    top: 8.8rem;
+}
+.selected4{
+    display: grid;
+    position:relative;
+    border-top: 1px solid rgb(241, 235, 235);
+    height: 3rem;
+    margin-top: .5rem;
+}
+.selected4 p{
+    justify-self:center;
+    position:absolute;
+    margin-left: 0rem !important;
+    font-size: 14px;
+    top: .5rem;
+}
+.selected4 button{
+    border: none;
+    background-color: hsl(176, 50%, 47%);
+    color: white;
+    justify-self: end;
+    position: absolute;
+    top: 2rem;
+    bottom: .5rem;
+    width: 35%;
+    height: 2rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+.selected4 button:focus{
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+}
+.selected4 input{
+    justify-self: end;
+    border: 1px rgb(228, 222, 222) solid;
+    position: absolute;
+    top: 2rem;
+    bottom: .5rem;
+    right: 5rem;
+    width: 33%;
+    height: 2rem;
+    margin: 0;
+    margin-right: 4.5rem !important;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 1rem;
+    font-size: 16px;
+}
+.ref-selection3{
+    display: none;
+}
+/*selection modal end*/
+
+/*modal end*/

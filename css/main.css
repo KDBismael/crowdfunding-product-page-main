@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content p{
+    color:#696969;
+}
+.content{
+    Font-size: 15px;
+    height:100rem;
+    background-color: hsl(0, 29%, 97%);
+    font-family: "commissioner";
+}
+
+.Moderate-cyan  {
+   color: hsl(176, 50%, 47%);
+}
+
+.Dark-cyan{
+    color: hsl(176, 72%, 28%);
+}
+
+.Dark-gray{
+color: hsl(0, 0%, 48%);
+}
+
+@font-face {
+    font-family: commissioner;
+    src: url(./Commissioner/Commissioner-VariableFont_wght.ttf);
+}
+
