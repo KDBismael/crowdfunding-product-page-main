@@ -9,7 +9,7 @@
 .navbar{
     border: 1px solid black;
     height: 15rem;
-    background-image: url('./images/image-hero-mobile.jpg');
+    background-image: url('../images/image-hero-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
