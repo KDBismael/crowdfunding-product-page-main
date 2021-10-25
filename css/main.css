@@ -27,6 +27,6 @@ color: hsl(0, 0%, 48%);
 
 @font-face {
     font-family: commissioner;
-    src: url(./Commissioner/Commissioner-VariableFont_wght.ttf);
+    src: url(../Commissioner/Commissioner-VariableFont_wght.ttf);
 }
 
